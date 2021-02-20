@@ -6,6 +6,8 @@ import {
   getApolloClient,
 } from '@wpengine/headless';
 import { gql } from '@apollo/client';
+import { HeadlessBlocks } from 'headless-blocks';
+import { blockComponents } from 'blocks';
 import { CTA, Footer, Header, Hero } from '../components';
 
 export default function Single(): JSX.Element {
@@ -20,10 +22,10 @@ export default function Single(): JSX.Element {
         <div className="wrap">
           { post && (
             <div>
-              <div>
-                {/* eslint-disable-next-line react/no-danger */ }
-                <div dangerouslySetInnerHTML={ { __html: post.content ?? '' } } />
-              </div>
+              <HeadlessBlocks
+                postContent={post.content ?? ''}
+                blockComponents={blockComponents}
+              />
             </div>
           ) }
         </div>
