@@ -7,4 +7,4 @@ const blockComponents = {
   [`${namespace}/email-opt-in`]: EmailOptIn,
 };
 
-export { blockComponents };
+export default { blockComponents };
