@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "next build",
+    "prepare": "npm run build",
     "clean": "rimraf .next node_modules",
     "dev": "next dev",
     "dev-lerna": "wait-on ./node_modules/@wpengine/headless/dist/index.js && npm run dev",
