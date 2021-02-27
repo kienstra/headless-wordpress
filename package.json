@@ -21,7 +21,7 @@
     "url": "git+https://github.com/wpengine/headless-framework/tree/main.git"
   },
   "workspaces": [
-    "*"
+    "./*"
   ],
   "keywords": [],
   "author": "",
