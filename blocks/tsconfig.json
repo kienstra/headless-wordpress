@@ -3,7 +3,7 @@
     "sourceMap": true,
     "strict": true,
     "esModuleInterop": true,
-    "target": "es3",
+    "target": "es5",
     "lib": ["dom"],
     "downlevelIteration": true,
     "preserveWatchOutput": true,
@@ -12,6 +12,6 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true
   },
-  "include": ["src/*.ts", "src/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules"]
 }
