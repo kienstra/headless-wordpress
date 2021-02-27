@@ -11,6 +11,7 @@
     "dist/"
   ],
   "scripts": {
+    "postinstall": "tsc -d -p tsconfig.json",
     "prepare": "tsc -d -p tsconfig.json",
     "dev": "tsc -d -w -p tsconfig.json"
   },
