@@ -14,7 +14,8 @@
     "lint": "tsc --noEmit -p . && eslint **/*.{ts,tsx} --parser-options=project:tsconfig.json --quiet --fix",
     "start": "next start -p 8080",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wpe-build": "next build"
+    "wpe-build": "next build",
+    "postinstall": "cd blocks && npm run build"
   },
   "repository": {
     "type": "git",
