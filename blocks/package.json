@@ -11,8 +11,8 @@
     "dist/"
   ],
   "scripts": {
-    "build": "tsc -d -p tsconfig.json",
-    "dev": "tsc -d -w -p tsconfig.json"
+    "build": "tsc -d -p ../tsconfig.json",
+    "dev": "tsc -d -w -p ../tsconfig.json"
   },
   "dependencies": {
     "typescript": "4.2.2"
