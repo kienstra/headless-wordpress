@@ -9,7 +9,6 @@
     "preserveWatchOutput": true,
     "outDir": "dist",
     "jsx": "react",
-    "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
